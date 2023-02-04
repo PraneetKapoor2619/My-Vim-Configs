@@ -40,7 +40,7 @@
 " Set up colorscheme
 set t_Co=256 
 set background=light
-:colorscheme turbo_mod1
+:colorscheme molokai_mod1
 
 
 " Enable syntax highlighting
