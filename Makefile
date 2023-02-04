@@ -1,5 +1,5 @@
 move: $(wildcard *)
 	cp vimrc gvimrc
-	cp -R . ~/.vim
+	rsync -av --progress . ~/.vim --exclude .git/
 
 
